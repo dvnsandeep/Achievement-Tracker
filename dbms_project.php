@@ -2,7 +2,7 @@
 session_start();
 $username = $_POST['username'];
 $password = $_POST['Password'];
-$username = stripcslashes($username);
+$username12 = stripcslashes($username);
 $password = stripcslashes($password);
 $_SESSION["name"] = $username;
 if (!empty($_POST['username'])){

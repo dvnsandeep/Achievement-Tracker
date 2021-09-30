@@ -1,6 +1,6 @@
 *CREATE TABLE PROOF
 (
-PID INT PRIMARY KEY,
+PID INT PRIMARY KEY identity, --For Auto Increment
 PNAME varchar(20),
 PLINK varchar(20),
 TRAVEL_ALLOWANCE INT
